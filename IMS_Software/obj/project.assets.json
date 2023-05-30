@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Microsoft.EntityFrameworkCore >= 8.0.0-preview.4.23259.3",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.4.23259.3",
+      "MySql.Data >= 8.0.33",
+      "MySql.Data.EntityFramework >= 8.0.33",
+      "MySql.EntityFrameworkCore >= 7.0.2",
+      "Notification.Wpf >= 7.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\BADRIBAHADUR KC\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\BADRIBAHADUR KC\\Downloads\\IMS\\IMS\\IMS_Software\\IMS_Software.csproj",
+      "projectName": "IMS_Software",
+      "projectPath": "C:\\Users\\BADRIBAHADUR KC\\Downloads\\IMS\\IMS\\IMS_Software\\IMS_Software.csproj",
+      "packagesPath": "C:\\Users\\BADRIBAHADUR KC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BADRIBAHADUR KC\\Downloads\\IMS\\IMS\\IMS_Software\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\BADRIBAHADUR KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.0-preview.4.23259.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[8.0.0-preview.4.23259.3, )"
+          },
+          "MySql.Data": {
+            "target": "Package",
+            "version": "[8.0.33, )"
+          },
+          "MySql.Data.EntityFramework": {
+            "target": "Package",
+            "version": "[8.0.33, )"
+          },
+          "MySql.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.2, )"
+          },
+          "Notification.Wpf": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MySql.Data.EntityFramework. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "MySql.Data.EntityFramework",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Notification.Wpf. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Notification.Wpf",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.SqlServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MySql.Data. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "MySql.Data",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MySql.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "MySql.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

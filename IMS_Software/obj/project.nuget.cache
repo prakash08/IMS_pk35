@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "dgSpecHash": "HPpdFePoh3z/Pt0eF7IchJWudquEjVU/865921oHRJjWG4VemPqYinSOneSdKyTiKPWd6fI2viIqbj0Y1t14hA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\BADRIBAHADUR KC\\Downloads\\IMS\\IMS\\IMS_Software\\IMS_Software.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MySql.Data.EntityFramework. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "MySql.Data.EntityFramework",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Notification.Wpf. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Notification.Wpf",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.SqlServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MySql.Data. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "MySql.Data",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MySql.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "MySql.EntityFrameworkCore",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
